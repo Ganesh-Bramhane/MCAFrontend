@@ -2,7 +2,7 @@ function FacultyCard({ name, subject, designation, email, phone, whatsapp, photo
   return (
     <div className="bg-white shadow-lg rounded-lg p-6 text-center hover:shadow-xl transition">
       <img
-        src={photo || "/images/default.png"} // agar photo missing ho to default
+        src={photo || "/images/default.png"} 
         alt={name}
         className="w-28 h-28 mx-auto rounded-full object-cover border-4 border-blue-900 mb-4"
       />
