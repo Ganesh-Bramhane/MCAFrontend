@@ -35,7 +35,7 @@ function Home() {
         <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8 text-center md:text-left">
           {/* HOD Photo */}
           <img
-            src="https://via.placeholder.com/200" // replace with real HOD photo
+            src="./images/AB.jpg" // replace with real HOD photo
             alt="HOD"
             className="w-48 h-48 rounded-full object-cover border-4 border-blue-900 shadow-lg"
           />
