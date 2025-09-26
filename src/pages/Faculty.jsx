@@ -123,7 +123,7 @@ function Faculty() {
       qualification: "B.Com, MBA (Student Section)",
       experience: "",
       area: "",
-      email: "os.tae@kjei.edu.in",
+      email: "????",
       photo: "/images/shamal.jpg",
     },
     // 👉 baki faculty members yahi array me daal do

@@ -47,18 +47,18 @@ function Home() {
 
             <div className="mt-6 flex justify-center md:justify-start gap-4">
               <a
-                href="mailto:hod@mca.college.edu"
-                className="bg-blue-600 text-white px-6 py-2 rounded-lg shadow hover:bg-blue-700 transition"
+                // href="???"
+                // className="bg-blue-600 text-white px-6 py-2 rounded-lg shadow hover:bg-blue-700 transition"
               >
-                ✉️ Email
+                
               </a>
               <a
-                href="https://wa.me/9876543210"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-green-600 text-white px-6 py-2 rounded-lg shadow hover:bg-green-700 transition"
+                // href="??"
+                // target="_blank"
+                // rel="noopener noreferrer"
+                // className="bg-green-600 text-white px-6 py-2 rounded-lg shadow hover:bg-green-700 transition"
               >
-                💬 WhatsApp
+                
               </a>
             </div>
           </div>

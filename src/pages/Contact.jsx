@@ -10,21 +10,21 @@ function Contact() {
         <div className="bg-white shadow-md rounded-xl p-6 text-center hover:shadow-lg transition">
           <h3 className="text-xl font-semibold text-blue-900">📍 Address</h3>
           <p className="text-gray-600 mt-2">
-            MCA Department, XYZ College <br /> Pune, Maharashtra
+            Trinity Academy Of Engineering<br /> Pune, Maharashtra
           </p>
         </div>
         <div className="bg-white shadow-md rounded-xl p-6 text-center hover:shadow-lg transition">
           <h3 className="text-xl font-semibold text-blue-900">📧 Email</h3>
-          <p className="text-gray-600 mt-2">mca@college.edu</p>
+          <p className="text-gray-600 mt-2">???????????</p>
         </div>
         <div className="bg-white shadow-md rounded-xl p-6 text-center hover:shadow-lg transition">
           <h3 className="text-xl font-semibold text-blue-900">📞 Phone</h3>
-          <p className="text-gray-600 mt-2">+91 98765 43210</p>
+          <p className="text-gray-600 mt-2">+91 ?????</p>
         </div>
         <div className="bg-white shadow-md rounded-xl p-6 text-center hover:shadow-lg transition">
           <h3 className="text-xl font-semibold text-blue-900">💬 WhatsApp</h3>
           <a
-            href="https://wa.me/919876543210"
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
             className="text-green-600 font-medium mt-2 block"
