@@ -9,6 +9,7 @@ import Timetable from "./pages/Timetable";
 import Notices from "./pages/Notices";
 import Achievements from "./pages/Achievements";
 import Developers from "./pages/Developers";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <Route path="/notices" element={<Notices />} />
             <Route path="/achievements" element={<Achievements />} />
             <Route path="/developers" element={<Developers />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
         <Footer />

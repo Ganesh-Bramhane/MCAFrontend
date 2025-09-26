@@ -35,6 +35,13 @@ function Navbar() {
           <Link to="/developers" className="hover:text-yellow-400 transition">
             Developers
           </Link>
+          <Link
+  to="/contact"
+  className="hover:text-yellow-400 transition"
+>
+  Contact
+</Link>
+
         </div>
 
         {/* Mobile Hamburger */}

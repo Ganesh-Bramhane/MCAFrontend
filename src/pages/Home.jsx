@@ -6,21 +6,14 @@ function Home() {
       {/* Hero Section */}
       <section className="bg-blue-900 text-white text-center py-20 px-4">
         <h1 className="text-3xl md:text-5xl font-bold">
-          Welcome to MCA Department 🎓
+          Welcome to MCA Department 
         </h1>
         <p className="mt-4 text-base md:text-lg max-w-2xl mx-auto">
           A hub of learning, innovation, and growth for aspiring IT
           professionals.
         </p>
         <div className="mt-6 flex flex-col sm:flex-row justify-center gap-4">
-          <a
-            href="https://wa.me/9876543210"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-green-600 px-6 py-2 rounded-lg shadow hover:bg-green-700 transition"
-          >
-            💬 WhatsApp HOD
-          </a>
+          
           <Link
             to="/timetable"
             className="bg-yellow-500 px-6 py-2 rounded-lg shadow hover:bg-yellow-600 transition"
@@ -47,7 +40,7 @@ function Home() {
               Head of Department, MCA
             </p>
             <p className="mt-4 text-gray-600 leading-relaxed">
-              With 15+ years of experience in teaching and research, Dr. Sharma
+              With 15+ years of experience in teaching and research, 
               leads the department with a vision to foster innovation,
               discipline, and academic excellence.
             </p>
@@ -105,54 +98,55 @@ function Home() {
 
       {/* Explore Section */}
       <section className="py-16 px-6">
-        <h2 className="text-3xl font-bold text-blue-900 text-center mb-10">
-          Explore
-        </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
-          <Link
-            to="/faculty"
-            className="bg-white shadow-lg rounded-xl p-6 text-center hover:-translate-y-1 hover:shadow-xl transition transform"
-          >
-            <h3 className="text-xl font-semibold text-blue-900">👨‍🏫 Faculty</h3>
-            <p className="text-gray-600 mt-2">Meet our experienced faculty team</p>
-          </Link>
-          <Link
-            to="/students"
-            className="bg-white shadow-lg rounded-xl p-6 text-center hover:-translate-y-1 hover:shadow-xl transition transform"
-          >
-            <h3 className="text-xl font-semibold text-blue-900">👩‍🎓 Students</h3>
-            <p className="text-gray-600 mt-2">View student list & GFM details</p>
-          </Link>
-          <Link
-            to="/notices"
-            className="bg-white shadow-lg rounded-xl p-6 text-center hover:-translate-y-1 hover:shadow-xl transition transform"
-          >
-            <h3 className="text-xl font-semibold text-blue-900">📢 Notices</h3>
-            <p className="text-gray-600 mt-2">Stay updated with latest news</p>
-          </Link>
-          <Link
-            to="/achievements"
-            className="bg-white shadow-lg rounded-xl p-6 text-center hover:-translate-y-1 hover:shadow-xl transition transform"
-          >
-            <h3 className="text-xl font-semibold text-blue-900">🏆 Achievements</h3>
-            <p className="text-gray-600 mt-2">See our toppers & success stories</p>
-          </Link>
-           <Link
-            to="/timetable"
-            className="bg-white shadow-lg rounded-xl p-6 text-center hover:-translate-y-1 hover:shadow-xl transition transform"
-          >
-            <h3 className="text-xl font-semibold text-blue-900">Timetable</h3>
-            <p className="text-gray-600 mt-2">See our toppers & success stories</p>
-          </Link>
-           <Link
-            to="/developers"
-            className="bg-white shadow-lg rounded-xl p-6 text-center hover:-translate-y-1 hover:shadow-xl transition transform"
-          >
-            <h3 className="text-xl font-semibold text-blue-900">Developer</h3>
-            <p className="text-gray-600 mt-2">See our toppers & success stories</p>
-          </Link>
-        </div>
-      </section>
+  <h2 className="text-3xl font-bold text-blue-900 text-center mb-10">
+    Explore
+  </h2>
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+    <Link
+      to="/faculty"
+      className="bg-white shadow-lg rounded-xl p-6 text-center hover:-translate-y-1 hover:shadow-xl transition transform"
+    >
+      <h3 className="text-xl font-semibold text-blue-900">👨‍🏫 Faculty</h3>
+      <p className="text-gray-600 mt-2">Meet our experienced faculty team</p>
+    </Link>
+    <Link
+      to="/students"
+      className="bg-white shadow-lg rounded-xl p-6 text-center hover:-translate-y-1 hover:shadow-xl transition transform"
+    >
+      <h3 className="text-xl font-semibold text-blue-900">👩‍🎓 Students</h3>
+      <p className="text-gray-600 mt-2">View student list & GFM details</p>
+    </Link>
+    <Link
+      to="/notices"
+      className="bg-white shadow-lg rounded-xl p-6 text-center hover:-translate-y-1 hover:shadow-xl transition transform"
+    >
+      <h3 className="text-xl font-semibold text-blue-900">📢 Notices</h3>
+      <p className="text-gray-600 mt-2">Stay updated with latest news</p>
+    </Link>
+    <Link
+      to="/achievements"
+      className="bg-white shadow-lg rounded-xl p-6 text-center hover:-translate-y-1 hover:shadow-xl transition transform"
+    >
+      <h3 className="text-xl font-semibold text-blue-900">🏆 Achievements</h3>
+      <p className="text-gray-600 mt-2">See our toppers & success stories</p>
+    </Link>
+    <Link
+      to="/timetable"
+      className="bg-white shadow-lg rounded-xl p-6 text-center hover:-translate-y-1 hover:shadow-xl transition transform"
+    >
+      <h3 className="text-xl font-semibold text-blue-900">📅 Timetable</h3>
+      <p className="text-gray-600 mt-2">Check daily lecture & lab schedule</p>
+    </Link>
+    <Link
+      to="/developers"
+      className="bg-white shadow-lg rounded-xl p-6 text-center hover:-translate-y-1 hover:shadow-xl transition transform"
+    >
+      <h3 className="text-xl font-semibold text-blue-900">💻 Developer</h3>
+      <p className="text-gray-600 mt-2">Meet the creator behind this project</p>
+    </Link>
+  </div>
+</section>
+
     </div>
   );
 }
